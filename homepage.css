@@ -7,13 +7,14 @@ border: 0;
 nav{
 position: fixed;
 top: 0;
-padding:0.50;
-width: 100%;
+padding:1.5em;
+width:80%;
+right: 0.5em;
 }
 
 nav ul{
-    text-align: centre;
+    text-align: right;
     list-style: none;
     display:flex;
-    justify-content: space-evenlyS;
+   justify-content:space-around;
 }
