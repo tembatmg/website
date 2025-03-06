@@ -1,0 +1,19 @@
+*{
+margin: 0;
+padding: 0;
+border: 0;
+}
+
+nav{
+position: fixed;
+top: 0;
+padding:0.50;
+width: 100%;
+}
+
+nav ul{
+    text-align: centre;
+    list-style: none;
+    display:flex;
+    justify-content: space-evenlyS;
+}
