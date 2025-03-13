@@ -2,52 +2,55 @@
     margin: 0;
     padding: 0;
     border: 0;
+    box-sizing:border-box ;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
 }
 
 nav {
-    position: fixed;
-    top: 0;
-    padding: 1.5em;
-    width: 80%;
-    right: 0.5em;
+    padding-right: 110px;
 }
 
 nav ul {
-    text-align: right;
     list-style: none;
     display: flex;
-    justify-content: space-around;
 }
 
 .logo {
-    font-size: 25px;
-    color:green;
+    font-size: 30px;
+    color: green;
     font-weight: 900;
-    transition: 0.3s ease;
-    text-align: left;
     text-decoration: none;
-    padding: 0.5em;
-
+    padding-left: 60px;
 }
 
 .logo:hover {
-    color:blue;
+    color: blue;
     text-shadow: 0 0 25px grey,
         0 0 50px grey;
     transform: scale(1.1);
 }
 
-span {
-    color: blueviolet;
-}
 
 .navbar a {
+    text-decoration: none;
     font-size: 18px;
     color: burlywood;
     font-weight: 600;
     margin: 0 20px;
     border-bottom: 4px solid transparent;
-    transition: 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+.navbar a:hover{
+    color: blue;
+    border-bottom: 3px solid blue;
+
 }
 
 .navbar a:hover,
