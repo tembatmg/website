@@ -1,0 +1,112 @@
+/* Reset default styling */
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+/* Body and general settings */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header and navigation styles */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #2C3E50;
+}
+
+header .logo {
+    font-size: 30px;
+    color: #ECF0F1;
+    font-weight: 900;
+    text-decoration: none;
+}
+
+header .logo:hover {
+    color: #3498DB;
+    text-shadow: 0 0 25px grey, 0 0 50px grey;
+    transform: scale(1.1);
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+}
+
+.navbar ul li {
+    margin: 0 20px;
+}
+
+.navbar a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #ECF0F1;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.navbar a:hover, .navbar a.active {
+    color: #3498DB;
+    border-bottom: 3px solid #3498DB;
+}
+
+/* Main content layout */
+main {
+    display: flex;
+    justify-content: space-between; /* Distribute space between content */
+    padding: 20px;
+    height: 100vh; /* Full viewport height */
+}
+
+/* Content container */
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 50%; /* Take half the width of the screen */
+}
+
+/* Footer styling */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #2C3E50;
+    color: #ECF0F1;
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 884px) {
+    body {
+        overflow-y: visible;
+    }
+
+    nav .logo {
+        font-size: 1.5rem;
+    }
+
+    .main-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .navbar ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .navbar a {
+        margin: 10px 0;
+    }
+
+    .content {
+        width: 100%; /* Full width on smaller screens */
+    }
+}
