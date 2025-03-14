@@ -63,6 +63,8 @@ main {
     justify-content: space-between; /* Distribute space between content */
     padding: 20px;
     height: 100vh; /* Full viewport height */
+    background: linear-gradient(to left, rgba(255, 0, 0, 0.532), rgba(0, 0, 255, 0.541), rgba(0, 128, 0, 0.518));
+
 }
 
 /* Content container */
@@ -106,7 +108,7 @@ main {
   
   .Report-content p {
     font-size: 1rem;
-    color: #666;
+    color:black;
     line-height: 1.6;
     max-width: 900px;
     margin: 0 auto;
