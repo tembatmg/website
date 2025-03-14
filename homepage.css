@@ -131,7 +131,7 @@ main {
     height: 6vh;
     margin: 30px;
     background-color: rgb(109, 67, 0);
-    color: white;
+    color:blueviolet;
     border: none;
     outline: none;
     font-size: 100%;
@@ -142,7 +142,7 @@ main {
 
 .content .btn button:hover {
     scale: 1.1;
-    color: rgb(109, 67, 0);
+    color: rgba(109, 67, 0, 0.434);
     border: 2px solid rgb(109, 67, 0);
     background-color: transparent;
     font-weight: 700;
@@ -290,4 +290,8 @@ header .logo:hover {
     #menu-toggle:checked + .hamburger + .navbar {
         display: flex;
     }
+}
+.btn a{
+    color:#D4B996;
+    text-decoration: none;
 }
