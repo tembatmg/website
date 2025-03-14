@@ -77,6 +77,7 @@ main {
     padding: 50px 20px;
     max-width:autto;
     margin: 0 auto;
+    height: auto;
   }
   
   .Report {
@@ -108,7 +109,6 @@ main {
     font-size: 1rem;
     color: #666;
     line-height: 1.6;
-    max-width: 900px;
     margin: 0 auto;
   }
 
