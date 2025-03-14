@@ -63,6 +63,8 @@ main {
     justify-content: center; /* Center the main content */
     padding: 20px;
     height: auto; /* Adjust height to fit content */
+    background: linear-gradient(to right, rgba(0, 0, 255, 0.475) 0%, white 100%);;
+    margin: 0;
 }
 
 /* Contact section layout */
