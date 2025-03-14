@@ -73,6 +73,44 @@ main {
     align-items: flex-start;
     width: 50%; /* Take half the width of the screen */
 }
+main {
+    padding: 50px 20px;
+    max-width:autto;
+    margin: 0 auto;
+  }
+  
+  .Report {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .image-container {
+    width: 100%;
+    max-width: 800px;
+    margin-bottom: 30px;
+  }
+  
+  .main-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .Report-content h2 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .Report-content p {
+    font-size: 1rem;
+    color: #666;
+    line-height: 1.6;
+    max-width: 900px;
+    margin: 0 auto;
+  }
 
 /* Footer styling */
 footer {
@@ -80,6 +118,7 @@ footer {
     padding: 10px;
     background-color: #2C3E50;
     color: #ECF0F1;
+    position: auto;
 }
 
 /* Media queries for responsiveness */
