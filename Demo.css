@@ -63,6 +63,8 @@ main {
     justify-content: space-between; /* Distribute space between content */
     padding: 20px;
     height: 100vh; /* Full viewport height */
+    background: linear-gradient(to bottom right, white, rgba(0, 0, 255, 0.429), rgba(128, 0, 128, 0.443));
+
 }
 
 /* Content container */
