@@ -65,6 +65,8 @@ main {
     /* Distribute space between content */
     padding: 20px;
     height: auto;
+    background: linear-gradient(to left,rgba(255, 0, 0, 0.384) 0%,rgba(0, 128, 128, 0.475) 50%, rgba(0, 0, 255, 0.411) 100%);
+
     /* Full viewport height */
 }
 
