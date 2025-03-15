@@ -77,7 +77,6 @@ main {
 }
 main {
     padding: 50px 20px;
-    max-width:autto;
     margin: 0 auto;
     height: auto;
   }
@@ -120,7 +119,6 @@ footer {
     padding: 10px;
     background-color: #2C3E50;
     color: #ECF0F1;
-    position: auto;
 }
 
 /* Media queries for responsiveness */
