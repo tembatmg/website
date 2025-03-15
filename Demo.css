@@ -218,20 +218,3 @@ header .logo:hover {
         display: flex;
     }
 }
-.vedio.demo{
-    text-align: center;
-    padding: 25px;
-}
-.vedio-iframe{
-    max-width:100%;
-    height: auto;
-    border: none;
-}
-
-.vedio-demo p{
-    margin-top: 15px;
-}
-.vedio-size {
-    width: 560px;
-    height: 315px;
-}
